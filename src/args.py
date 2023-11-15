@@ -6,4 +6,4 @@ def parse():
     parser.add_argument('config', help='path to .ini config file')
     args = parser.parse_args()
 
-    return args.env
+    return args.config
